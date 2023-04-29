@@ -1,0 +1,31 @@
+Linux commands:
+  touch (slozka.pripona)      //vytvori soubor
+
+
+Git commands:
+  git status                  //ukaze v jakem stavu jsou soubory ve slozce
+  
+  git commit -m 'komentar?'   //odesle data
+  
+  git add (slozka.pripona)    //prida soubor, slozku do prostredi na odeslani
+  git add .                   //prida vse
+  git add /slozka             //prida slozku
+  
+  git rm (jmeno)              //toto naopak odebere file, slozku
+  
+  git push                    //odesle do internetove depository
+  
+  git pull                    //zkontroluje internetovou depository, zda probehly zmeny
+  
+  git branch (jmeno)          //vytvori "oddeleni" pod kterym odesilam
+  -> default branch je master, ostatni bych si dovytvoril
+  
+  git checkout (jmeno)        //toto vybere oddeleni za ktere chci odesilat
+  
+  git merge (login)           //slouci soubory z branche (jmeno) do aktualni -> takze nejlepe maste
+
+.gitignore                  //do tohoto souboru pridavam nazvy souboru ktere nechci aby git odeslal
+-> jako treba   index.html
+                /slozka
+                *.txt       //vsechny textove soubory
+                
