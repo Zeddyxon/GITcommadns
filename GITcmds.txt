@@ -3,6 +3,11 @@ Linux commands:
 
 
 Git commands:
+  Konfigurace
+  git init                    //inicializiuje slozku jako .git
+  git config --global user.name "Jan Sochor"
+  git config --global user.email "email"
+  
   git status                  //ukaze v jakem stavu jsou soubory ve slozce
   
   git commit -m 'komentar?'   //odesle data
@@ -28,4 +33,7 @@ Git commands:
 -> jako treba   index.html
                 /slozka
                 *.txt       //vsechny textove soubory
+
+
+Zobrazi se tedy tyto zmeny?
                 
