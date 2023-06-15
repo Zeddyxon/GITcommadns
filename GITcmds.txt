@@ -29,11 +29,10 @@ Git commands:
   
   git merge (login)           //slouci soubory z branche (jmeno) do aktualni -> takze nejlepe maste
 
-.gitignore                  //do tohoto souboru pridavam nazvy souboru ktere nechci aby git odeslal
--> jako treba   index.html
+  .gitignore                  //do tohoto souboru pridavam nazvy souboru ktere nechci aby git odeslal
+ -> jako treba   index.html
                 /slozka
                 *.txt       //vsechny textove soubory
 
 
-Zobrazi se tedy tyto zmeny?
-                
+  git clone https://github.com/username/myrepo.git		//stahne projekt z usera a projektu
