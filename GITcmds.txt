@@ -1,6 +1,14 @@
 Linux commands:
   touch (slozka.pripona)      //vytvori soubor
 
+Posloupnost posílání dat:
+	
+	git init
+	git add .
+	git commit -m "Your commit mesage"
+	git remote add origin <URL>
+	git push origin master
+
 
 Git commands:
   Konfigurace
